@@ -13,7 +13,7 @@
 # limitations under the License.
 
 
-FROM python:3.12-slim
+FROM python:3.14-slim
 
 ARG PROJECT_ID=<YOUR-PROJECT-ID>
 # Allow statements and log messages to immediately appear in the Knative logs
